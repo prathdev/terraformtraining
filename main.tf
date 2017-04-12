@@ -34,7 +34,7 @@ resource "aws_instance" "web" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-7e08481a"
   ami                    = "ami-eea9f38e"
-  vpc_security_group_ids = ["sg-834d35e4"]
+  vpc_security_group_ids = ["sg-834d35e41"]
 
   tags {
     Note     = "test instance"
