@@ -13,7 +13,7 @@ variable "aws_region" {
 
 variable "totalcount" {
   type    = "string"
-  default = "2"
+  default = "3"
 }
 
 terraform {
